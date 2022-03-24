@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lania</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">Fill all the blanks for knowng how powerful is your credit card.</div>
+        <form id="form" method="post" action="/test/submit">
+            <div class="user__details">
+                <div class="input__box">
+                  <span class="details">First Name</span>
+                  <input id ="firstName" name="firstName" type="text" placeholder="E.g: John" value = "Anna" required>
+                </div>
+                <div class="input__box">
+                  <span class="details">Last Name</span>
+                  <input type="text" id="lastName" name="lastName" placeholder="Smith" value="Test" required>
+                </div>
+                <div class="input__box">
+                  <span class="details">Email</span>
+                  <input type="email" id="email" name="email" placeholder="johnsmith@hotmail.com" value="anna@test.com" required>
+                </div>
+                <div class="input__box">
+                  <span class="details">Phone Number</span>
+                  <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="07x-xxx-xxx" value="055 257 33 22" required>
+                </div>
+                <div class="input__box">
+                  <span class="details">Address</span>
+                  <input type="text" id = "address" name="address" placeholder="Via xxxxxx xxxxxx" value="Blumenstrasse" required>
+                </div>
+                <div class="input__box">
+                  <span class="details">Pincode</span>
+                  <input type="number" id="pinCode" name="pinCode" placeholder="6900" value="8008" required>
+                </div>
+                <div class="input__box">
+                  <span class="details">City</span>
+                  <input type="text" id="city" name="city" placeholder="Lugano" value="Zürich" required>
+                </div>
+              </div>
+              <div class="gender__details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <span class="gender__title">Gender</span>
+                <div class="category">
+                  <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span>Male</span>
+                  </label>
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span>Female</span>
+                  </label>
+                </div>
+              </div>
+              <div class="input__box">
+                <span class="details">Birthday:</span>
+                <input type="date" id="birthday" name="birthday" required>
+              </div>
+              <div class="button">
+                <input type="submit" value="Check it now">
+              </div>
+        </form>
+</div>
+</body>
+</html>

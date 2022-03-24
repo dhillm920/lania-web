@@ -1,0 +1,22 @@
+{
+  "name": "nodepost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "firebase": "^9.6.9",
+    "firebase-admin": "^10.0.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.2.3",
+    "path": "^0.12.7"
+  }
+}
